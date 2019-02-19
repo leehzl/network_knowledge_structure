@@ -67,5 +67,5 @@
 - nginx负载均衡
 - vpn技术
 - DNS
-- mylocal
+- desttop
 - 
