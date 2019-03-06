@@ -25,7 +25,10 @@
 
 ## 使用场景
 
-- 输入Baidu,com的七层协议
+- 输入Baidu,com后，详细介绍工作过程
+  - DNS解析
+  - 本地缓存
+  - 
 - 局域网内/之间如何通信（涉及到路由 网关）
 - http vs https
 - GET vs POST
@@ -44,7 +47,7 @@
  - 状态码
  - HTTP 1.0/2.0
  - 长连接/短连接
- 
+
  ### icmp
  - ping命令
  - traceroute
@@ -67,4 +70,4 @@
 - nginx负载均衡
 - vpn技术
 - DNS
-- 
+- Las+keepalived
