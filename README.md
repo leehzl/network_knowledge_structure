@@ -45,7 +45,7 @@
  - body属性
  - 常见请求/响应字段
  - 状态码
- - HTTP 1.0/2.0
+ - HTTP 1.0/1.1/2.0
  - 长连接/短连接
 
  ### icmp
@@ -57,11 +57,14 @@
 
 - mac地址
 - ip地址（A B C D类）
-- 私有地址
+- 私有地址（10.x.x.x/172.x.x.x/192.168.x.x）
+- 保留地址 127.x.x.x
 
 ## 网络包
 
-- ping包 icmp包
+- ping包
+- icmp包
+- HTTP包
 
 ## 相关技术
 
@@ -69,5 +72,5 @@
 - https加密 公私钥加密
 - nginx负载均衡
 - vpn技术
-- DNS
 - Las+keepalived
+- DNS
